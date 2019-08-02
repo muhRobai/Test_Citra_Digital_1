@@ -8,3 +8,8 @@ input: "osama"   hasil: "aaoms"
 1. make sure you have instaled golang
 2. go to $GOPATH/src and git Clone
 3. run the apps `go run apps_name.go`
+
+
+## for testing unit
+1. `cd sort`
+2. `go test -v`
