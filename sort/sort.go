@@ -1,13 +1,12 @@
 package sort
 
 import (
-	"fmt"
 	"strings"
 	"sort"
 	
 )
 
-func Sort(text string){
+func Sort(text string) string{
 	var role =[]string{"a","i","u","e","o","A","I","U","E","O"}
 	var exceptRole = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
 	var hasil = []string{}
@@ -40,7 +39,7 @@ func Sort(text string){
 		hasil = append(hasil, hasil2[l])
 	}
 
-	fmt.Println(strings.Join(hasil,""))
+	return strings.Join(hasil,"")
 
 
 }

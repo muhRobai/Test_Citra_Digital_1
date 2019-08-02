@@ -6,7 +6,7 @@ import(
 )
 
 func main(){
-	sort.Sort("omama")
+	fmt.Println(sort.Sort("omama"))
 	fmt.Println("=======||======||=====")
-	sort.Sort("oasam")
+	fmt.Println(sort.Sort("oasam"))
 }
